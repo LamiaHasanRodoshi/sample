@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Galada', cursive;
+}
+.header{
+    background: #3B5998;
+    overflow: hidden;
+    padding-top: 8px ;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    max-width: 1000px;
+}
+.logo-area{
+ 
+    width:30%;
+    float: left
+}
+.logo-area img{
+    margin-top: 20px;
+    width: 180px;
+}
+
+.login-area{
+    width: 70%;
+    float: left;
+    color: white;
+}
+.login-area form{
+    float: right;
+}
+.login-area label,
+.login-area input{
+    display: block;
+    
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+    float: left;
+    margin-right: 12px;
+}
+
+.login-area label{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.login-area .login{
+    margin-right: 0;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border 1px solid black;
+    font-size: 14px;
+    padding: 2px 5px;
+    
+}
+
+.login-area .password a{
+    text-decoration: none;
+    color:#9cb4d8;
+    font-size: 14px;
+}
+
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2;
+    border:1px solid #29487d;
+    color: white;
+    padding: 3px 8px;
+    margin-top: 26px;
+    
+    
+}
+
+/* End header area*/
+
+.signup-area{
+    background: linear-gradient( #ffffff, #D4D9E8);
+    padding: 20px 0;
+}
+.signup-area::after{
+    content:'';
+    clear:both;
+    display: block;
+}
+.left-area{
+    width: 55%;
+    float: left;
+}
+.left-area p{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 80%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.left-area img{
+    width: 100%;
+}
+
+.right-area{
+    width: 45%;
+    float: left;
+}
+
+.right-area h2{
+    font-size: 36px;
+    color: #333; 
+    margin: 0;
+
+}
+
+.right-area h4{
+    color: #1d2129;
+    font-size: 19px; 
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.full-name{
+    
+}
+
+.first-name{
+    width: 48%;
+    float:left;
+    margin-right: 4%;
+}
+
+.surname{
+    width: 48%;
+    float: left;
+
+}
+
+.birthday{
+    overflow: hidden;
+   
+}
+}
+
+
+.birthday h4{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;    
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.birth-date{
+    overflow: hidden;
+}
+
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+}
+.gender h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+}
+.gender label{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.text-box{
+    margin-bottom: 20px;
+}
+.text-box p{
+    font-size: 13px;
+    color: #777;
+    width: 100%;
+}
+
+.text-box a{
+    text-decoration: none;
+    color:darkslateblue;
+}
+
+.text-box a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    margin-bottom: 30px;
+}
+
+.btn input{
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 20px;
+    min-width: 194px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn input:hover{
+     background: linear-gradient(#578843, #67ae55);
+    cursor: pointer;
+}
+.business{
+    font-weight: 600px;
+    color: #666;
+}
+.business a{
+    text-decoration: none;
+    color: #385898;
+    cursor: pointer;
+}
+
+.business a:hover{
+    text-decoration: underline;
+}
+
+/*End sign-up area */
+
+
+.footer-area{
+    padding: 30px 0px;
+    
+}
+
+.footer-area ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-area ul li{
+    display: inline;
+   
+}
+
+.footer-area ul li a{
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 14px;
+}
+
+.footer-area ul li.active a{
+    color: cornflowerblue;
+}
+
+.footer-area .top ul li:last-child a{
+    border: 1px solid #999;
+    color: darkgray;
+    padding: 0px 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-area .top ul li{
+     margin-right: 8px;
+}
+
+.footer-area .middle ul li{
+     margin-right: 13px;
+}
+
+
+
+.footer-area bottom span{
+    color: cornflowerblue;
+    font-size: 10px;
+    font-weight: 300px;
+   
+}
+
+.footer-area hr{
+    border: 0;
+    border-bottom: 1px solid #d4d4d4
+}
+
